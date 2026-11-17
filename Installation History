@@ -1,0 +1,40 @@
+awasson@pi4b-node1:~$ history | grep slurm
+  195  sudo apt list | grep slurm
+  197  sudo apt list | grep slurm
+  229  sudo useradd -m slurm
+  230  id slurm
+  234  cd slurm_installers/
+  236  sudo apt install -y ./slurm-smd_26.05.2-1_arm64.deb ./slurm-smd-slurmctld_26.05.2-1_arm64.deb
+  237  which slurm
+  238  which slurm*
+  240  sudo apt remove slurm-smd-slurmctld -y && sudo apt install -y /media/cluster/slurm_installers/slurm-smd-slurmd_26.05.2-1_arm64.deb
+  241  sudo cp /media/cluster/slurm.conf /etc/slurm
+  242  ssh awasson@pi4b-node2.aaronwasson.net sudo cp /media/cluster/slurm.conf /etc/slurm
+  244  sudo chown slurm:slurm /etc/slurm/slurm.conf && sudo systemctl enable slurmd && sudo systemctl restart slurmd
+  245  sudo systemctl status slurmd
+  257  id slurm
+  269  sudo cp /media/cluster/slurm.conf /etc/slurm/slurm.conf 
+  270  sudo systemctl restart slurmd
+  271  systemctl status slurmd.service
+  272  sudo mkdir -p /var/spool/slurm/slurmd
+  273  sudo mkdir -p /var/spool/slurm/slurmd && chown -R slurm:slurm /var/spool/slurm/slurmd
+  274  sudo ls -alh /var/spool/slurm
+  275  sudo ls -alh /var/spool/slurm/slumrd
+  276  sudo ls -alh /var/spool/slurm/slurmd/
+  277  sudo mkdir -p /var/spool/slurmctld
+  278  sudo systemctl restart slurmd
+  279  sudo cp /media/cluster/slurm.conf /etc/slurm/slurm.conf 
+  280  sudo systemctl restart slurmd
+  282  sudo su - slurm
+  284  cat /var/log/slurm/slurmd.log 
+  285  sudo cat /var/log/slurm/slurmd.log 
+  286  tail -f /var/log/slurm/slurmd.log 
+  287  sudo tail -f /var/log/slurm/slurmd.log 
+  288  sudo su - slurm
+  289  sudo tail -f /var/log/slurm/slurmd.log 
+  295  sudo cp /media/cluster/slurm_installers/slurm.conf /etc/slurm/
+  296  sudo systemctl restart slurmd
+  297  sudo cp /media/cluster/slurm_installers/slurm.conf /etc/slurm/ && sudo systemctl restart slurmd
+  349  ls /etc/slurm
+  351  apt list --installed | grep slurm
+  352  history | grep slurm
